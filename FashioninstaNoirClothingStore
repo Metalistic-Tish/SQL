@@ -1,0 +1,12 @@
+CREATE TABLE FashionistaNoir(Size INTEGER, Clothing_type TEXT, quantity INTEGER );
+INSERT INTO FashionistaNoir VALUES (8, "Black Pants", 32);
+INSERT INTO FashionistaNoir VALUES (12, "Black Leather Pants", 15);
+INSERT INTO FashionistaNoir VALUES (12, "Red Blouses", 35);
+INSERT INTO FashionistaNoir VALUES (18, "Pink Floral Blouses", 32);
+SELECT * FROM FashionistaNoir;
+INSERT INTO FashionistaNoir VALUES (14, "Black Pants", 15);
+INSERT INTO FashionistaNoir VALUES (12, "Black Pants", 22);
+INSERT INTO FashionistaNoir VALUES (16, "Pink Floral Blouses", 18);
+INSERT INTO FashionistaNoir VALUES (14, "Black Leather Pants", 26);
+SELECT * FROM FashionistaNoir
+ORDER BY Size;
